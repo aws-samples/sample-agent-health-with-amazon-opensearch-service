@@ -1,0 +1,15 @@
+# CDK / Node build artifacts
+node_modules/
+cdk.out/
+*.js
+*.d.ts
+!jest.config.js
+
+# CDK local state
+cdk.context.json
+
+# CDK deploy outputs (may contain live endpoints/ARNs)
+cdk-outputs.json
+
+# Logs
+*.log

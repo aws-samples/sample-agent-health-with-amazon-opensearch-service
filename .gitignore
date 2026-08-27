@@ -1,0 +1,18 @@
+.env
+node_modules/
+__pycache__/
+.next/
+.amplify-hosting/
+.kiro/
+.vscode/
+test-results/
+.playwright-mcp/
+.pr-work/
+agent-health/agent-health-data/
+
+# Build / deploy outputs
+chat-frontend/out/
+retail-agent/dist/
+infra/cdk.out.deploy/
+
+.DS_Store
